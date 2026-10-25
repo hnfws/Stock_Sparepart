@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark">#0F1015</color>
+    <color name="bg_card">#16181E</color>
+    <color name="bg_card_stroke">#2A2D36</color>
+    <color name="orange_primary">#FF4D1D</color>
+    <color name="orange_primary_dark">#E03E10</color>
+    <color name="orange_stroke">#FF5D28</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E93A0</color>
+    <color name="text_tertiary">#616675</color>
+    <color name="divider_line">#262933</color>
 </resources>
