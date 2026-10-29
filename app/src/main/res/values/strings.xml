@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Stock Sparepart</string>
+
     <string name="log_in">Log In</string>
     <string name="login_subtitle">Authenticate to sync serialized spare stock,\ntelemetry logs &amp; workshop dispatch.</string>
     <string name="label_operator_id">OPERATOR ID / WORK EMAIL</string>
     <string name="label_master_access_pin">MASTER ACCESS PIN / KEY</string>
     <string name="forgot_security_key">Forgot security key?</string>
     <string name="log_in_to_inventory">Log In to Inventory</string>
-    <string name="or_divider">OR</string>
-    <string name="scan_badge">Scan Badge</string>
-    <string name="biometric_id">Biometric ID</string>
     <string name="hint_operator_id">marshal.v@torqueops.internal</string>
     <string name="hint_master_pin">Inventory@2026</string>
     <string name="cd_settings">Settings</string>
@@ -16,6 +15,133 @@
     <string name="cd_key_icon">Key Icon</string>
     <string name="cd_toggle_password">Toggle Password Visibility</string>
     <string name="cd_arrow_right">Arrow Right</string>
-    <string name="cd_scan_badge">Scan Badge Icon</string>
-    <string name="cd_biometric">Biometric ID Icon</string>
+    <!-- Onboarding (Clean Production Copy) -->
+    <string name="onboarding_title">Manajemen Gudang Suku Cadang yang Rapi &amp; Akurat</string>
+    <string name="onboarding_subtitle">Pantau stok komponen bengkel, catat barang masuk dan keluar, serta jaga ketersediaan suku cadang setiap hari.</string>
+    <string name="onboarding_feat_1_title">Ringkasan Stok &amp; Nilai Aset</string>
+    <string name="onboarding_feat_1_desc">Ketahui jumlah unit tersedia dan nilai inventaris gudang secara langsung.</string>
+    <string name="onboarding_feat_2_title">Pencatatan Barang Masuk &amp; Keluar</string>
+    <string name="onboarding_feat_2_desc">Rekam penerimaan barang dari distributor maupun pemakaian servis bengkel.</string>
+    <string name="onboarding_feat_3_title">Peringatan Stok Menipis</string>
+    <string name="onboarding_feat_3_desc">Deteksi lebih awal komponen yang hampir habis agar operasional tidak terhambat.</string>
+    <string name="btn_start_now">Mulai Sekarang</string>
+
+    <!-- Login & Register -->
+    <string name="login_title">Masuk ke Akun Gudang</string>
+    <string name="hint_username">Nama Pengguna</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="label_select_role">Divisi / Peran Tugas</string>
+    <string name="role_warehouse_head">Kepala Gudang</string>
+    <string name="role_stock_admin">Admin Logistik</string>
+    <string name="role_technician">Teknisi Bengkel</string>
+    <string name="checkbox_remember_me">Simpan nama pengguna di perangkat ini</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_register_account">Buat Akun Petugas</string>
+    <string name="demo_credentials_info">Akses standar: admin  •  stmi123</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_spareparts">Suku Cadang</string>
+    <string name="nav_history">Mutasi</string>
+    <string name="nav_account">Akun</string>
+
+    <!-- Dashboard & Main -->
+    <string name="dashboard_subtitle">Ringkasan operasional gudang</string>
+    <string name="spareparts_subtitle">Daftar komponen &amp; ketersediaan stok</string>
+    <string name="history_subtitle">Catatan keluar-masuk barang</string>
+    <string name="account_subtitle">Profil petugas &amp; preferensi tampilan</string>
+    <string name="kpi_total_sku">Jenis Part</string>
+    <string name="kpi_total_units">Total Unit</string>
+    <string name="kpi_low_stock">Perlu Restock</string>
+    <string name="kpi_asset_value">Nilai Inventaris</string>
+    <string name="hint_search_sparepart">Cari nama komponen, kode SKU, atau mobil…</string>
+    <string name="checkbox_low_stock_only">Tampilkan stok menipis atau habis saja</string>
+    <string name="btn_sort">Urutkan</string>
+    <string name="fab_add_sparepart">Tambah Part</string>
+    <string name="empty_list_title">Komponen Tidak Ditemukan</string>
+    <string name="empty_list_desc">Coba kata kunci lain atau tambahkan data suku cadang baru.</string>
+
+    <!-- Form Add/Edit -->
+    <string name="title_add_sparepart">Tambah Suku Cadang</string>
+    <string name="title_edit_sparepart">Ubah Data Suku Cadang</string>
+    <string name="hint_part_code">Kode SKU (cth: BRK-AVZ-01)</string>
+    <string name="hint_part_name">Nama Suku Cadang</string>
+    <string name="hint_vehicle_brand">Peruntukan Kendaraan (cth: Toyota Avanza)</string>
+    <string name="label_category_spinner">Kategori Komponen</string>
+    <string name="label_quality_radio">Kualitas Suku Cadang</string>
+    <string name="quality_oem">OEM / Genuine</string>
+    <string name="quality_aftermarket">Aftermarket</string>
+    <string name="quality_recondition">Rekondisi</string>
+    <string name="label_extra_specs">Label Tambahan</string>
+    <string name="checkbox_warranty">Bergaransi Resmi</string>
+    <string name="checkbox_fast_moving">Komponen Fast Moving</string>
+    <string name="hint_stock_qty">Stok Saat Ini</string>
+    <string name="hint_min_stock">Batas Stok Minimum</string>
+    <string name="hint_unit_price">Harga Satuan (Rp)</string>
+    <string name="hint_rack_location">Lokasi Rak (cth: Rak B-02)</string>
+    <string name="hint_supplier_name">Nama Pemasok / Distributor</string>
+    <string name="hint_supplier_phone">Nomor Telepon Pemasok</string>
+    <string name="hint_notes">Catatan Tambahan</string>
+    <string name="btn_save_sparepart">Simpan Suku Cadang</string>
+
+    <!-- Detail & Mutation -->
+    <string name="title_detail_sparepart">Rincian Suku Cadang</string>
+    <string name="btn_stock_in">Barang Masuk (+)</string>
+    <string name="btn_stock_out">Barang Keluar (-)</string>
+    <string name="btn_call_supplier">Hubungi Pemasok</string>
+    <string name="btn_share_po">Kirim Ringkasan</string>
+    <string name="section_mutation_history">Riwayat Stok Komponen Ini</string>
+    <string name="title_stock_history">Riwayat Mutasi</string>
+
+    <!-- Menus -->
+    <string name="menu_toggle_theme">Ubah Tema</string>
+    <string name="menu_share_summary">Bagikan Laporan Gudang</string>
+    <string name="menu_view_onboarding">Panduan Aplikasi</string>
+    <string name="menu_reset_data">Atur Ulang Data Gudang</string>
+    <string name="menu_logout">Keluar Akun</string>
+
+    <string name="ctx_view_detail">Lihat Rincian</string>
+    <string name="ctx_edit_part">Ubah Data</string>
+    <string name="ctx_quick_restock">Tambah Stok Cepat (+5)</string>
+    <string name="ctx_delete_part">Hapus Komponen</string>
+
+    <string name="popup_stock_in">Barang Masuk (+)</string>
+    <string name="popup_stock_out">Barang Keluar (-)</string>
+    <string name="popup_edit">Ubah Data</string>
+    <string name="popup_call_supplier">Hubungi Pemasok</string>
+    <string name="popup_delete">Hapus Komponen</string>
+
+    <string name="sort_name_asc">Nama (A – Z)</string>
+    <string name="sort_stock_asc">Stok Terendah</string>
+    <string name="sort_price_desc">Harga Tertinggi</string>
+    <string name="sort_newest">Terbaru Diperbarui</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_logo_icon">Logo aplikasi</string>
+    <string name="cd_more_options">Opsi suku cadang</string>
+    <string name="cd_back_button">Kembali</string>
+    <string name="cd_edit_part">Ubah suku cadang</string>
+    <string name="cd_delete_part">Hapus suku cadang</string>
+
+    <!-- Categories Array for Spinner -->
+    <string-array name="sparepart_categories">
+        <item>Mesin &amp; Pelumas</item>
+        <item>Sistem Pengereman</item>
+        <item>Kelistrikan &amp; Aki</item>
+        <item>Filter &amp; Pendingin</item>
+        <item>Kaki-kaki &amp; Suspensi</item>
+        <item>Transmisi &amp; Kopling</item>
+        <item>Bodi &amp; Aksesoris</item>
+    </string-array>
+
+    <string-array name="filter_categories">
+        <item>Semua Kategori</item>
+        <item>Mesin &amp; Pelumas</item>
+        <item>Sistem Pengereman</item>
+        <item>Kelistrikan &amp; Aki</item>
+        <item>Filter &amp; Pendingin</item>
+        <item>Kaki-kaki &amp; Suspensi</item>
+        <item>Transmisi &amp; Kopling</item>
+        <item>Bodi &amp; Aksesoris</item>
+    </string-array>
 </resources>

@@ -13,7 +13,7 @@
     <!--
     <device-transfer>
         <include .../>
-        <exclude .../>
+        <excl ude .../>
     </device-transfer>
     -->
 </data-extraction-rules>

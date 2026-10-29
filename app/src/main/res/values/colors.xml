@@ -1,15 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="bg_dark">#0F1015</color>
-    <color name="bg_card">#16181E</color>
-    <color name="bg_card_stroke">#2A2D36</color>
+    <!-- LIGHT MODE palette: disamakan 100% dengan layar Login (Dominan Krem Keorenan #F0E2E2, Putih #FFFFFF, dan Akses Oranye #FF4D1D) -->
+    <color name="bg_dark">#F0E2E2</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_card_stroke">#FF5D28</color>
     <color name="orange_primary">#FF4D1D</color>
     <color name="orange_primary_dark">#E03E10</color>
     <color name="orange_stroke">#FF5D28</color>
-    <color name="text_primary">#FFFFFF</color>
-    <color name="text_secondary">#8E93A0</color>
-    <color name="text_tertiary">#616675</color>
-    <color name="divider_line">#262933</color>
+    <color name="text_tertiary">#8A7A78</color>
+    <color name="divider_line">#E3CFCB</color>
+
+    <!-- Brand Palette (Disamakan dengan Login Screen) -->
+    <color name="brand_primary">#FF4D1D</color>
+    <color name="brand_primary_variant">#E03E10</color>
+    <color name="brand_on_primary">#F0E2E2</color>
+    <color name="brand_secondary">#FF5D28</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_accent_amber">#FFE3D8</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="bg_screen">#F0E2E2</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_surface_elevated">#FFF8F6</color>
+    <color name="bg_card_footer_tint">#FFE4DA</color>
+    <color name="bg_hero_start">#FF4D1D</color>
+    <color name="bg_hero_end">#E03E10</color>
+
+    <!-- Onboarding Gradient -->
+    <color name="bg_onboarding_top">#FF4D1D</color>
+    <color name="bg_onboarding_bottom">#E03E10</color>
+    <color name="stroke_subtle">#E6D5D2</color>
+
+    <!-- Unified Tile Colors (Matching Login Theme - White & Orange) -->
+    <color name="tile_blue_bg">#FFFFFF</color>
+    <color name="tile_blue_stroke">#FF5D28</color>
+    <color name="tile_blue_text">#FF4D1D</color>
+
+    <color name="tile_teal_bg">#FFFFFF</color>
+    <color name="tile_teal_stroke">#FF5D28</color>
+    <color name="tile_teal_text">#E03E10</color>
+
+    <color name="tile_amber_bg">#FFE4DA</color>
+    <color name="tile_amber_stroke">#FF5D28</color>
+    <color name="tile_amber_text">#C2410C</color>
+
+    <color name="tile_indigo_bg">#FFFFFF</color>
+    <color name="tile_indigo_stroke">#FF5D28</color>
+    <color name="tile_indigo_text">#180505</color>
+
+    <!-- Action Button Accents -->
+    <color name="btn_emerald">#10B981</color>
+    <color name="btn_coral">#EF4444</color>
+    <color name="btn_teal">#FF4D1D</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#180505</color>
+    <color name="text_secondary">#6B5B59</color>
+    <color name="text_muted">#8A7A78</color>
+    <color name="text_on_hero">#FFFFFF</color>
+    <color name="text_on_hero_muted">#FFE3D8</color>
+
+    <!-- Semantic Stock Status (Kondisi Khusus Penanda Status) -->
+    <color name="status_safe_text">#047857</color>
+    <color name="status_safe_bg">#D1FAE5</color>
+    <color name="status_safe_stroke">#A7F3D0</color>
+
+    <color name="status_low_text">#C2410C</color>
+    <color name="status_low_bg">#FFE4DA</color>
+    <color name="status_low_stroke">#FED7AA</color>
+
+    <color name="status_empty_text">#B91C1C</color>
+    <color name="status_empty_bg">#FEE2E2</color>
+    <color name="status_empty_stroke">#FECACA</color>
+
+    <color name="badge_info_text">#E03E10</color>
+    <color name="badge_info_bg">#FFE4DA</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
