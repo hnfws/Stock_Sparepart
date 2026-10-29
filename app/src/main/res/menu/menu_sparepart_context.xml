@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctx_view_detail"
+        android:title="@string/ctx_view_detail" />
+    <item
+        android:id="@+id/ctx_edit_part"
+        android:title="@string/ctx_edit_part" />
+    <item
+        android:id="@+id/ctx_quick_restock"
+        android:title="@string/ctx_quick_restock" />
+    <item
+        android:id="@+id/ctx_delete_part"
+        android:title="@string/ctx_delete_part" />
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Core Palette (Matching Login Screen Theme - Dark Mode) -->
+    <color name="bg_dark">#0B1220</color>
+    <color name="bg_card">#16181E</color>
+    <color name="bg_card_stroke">#2A2D36</color>
+    <color name="orange_primary">#FF4D1D</color>
+    <color name="orange_primary_dark">#E03E10</color>
+    <color name="orange_stroke">#FF5D28</color>
+    <color name="text_tertiary">#616675</color>
+    <color name="divider_line">#262933</color>
+
+    <!-- Brand Palette -->
+    <color name="brand_primary">#FF4D1D</color>
+    <color name="brand_primary_variant">#E03E10</color>
+    <color name="brand_on_primary">#0B1220</color>
+    <color name="brand_secondary">#FF5D28</color>
+    <color name="brand_on_secondary">#0B1220</color>
+    <color name="brand_accent_amber">#FF5D28</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="bg_screen">#0B1220</color>
+    <color name="bg_surface">#16181E</color>
+    <color name="bg_surface_elevated">#1F222C</color>
+    <color name="bg_card_footer_tint">#1F222C</color>
+    <color name="bg_hero_start">#16181E</color>
+    <color name="bg_hero_end">#2B1C19</color>
+
+    <color name="bg_onboarding_top">#0B1220</color>
+    <color name="bg_onboarding_bottom">#16181E</color>
+    <color name="stroke_subtle">#2A2D36</color>
+
+    <!-- Unified Tile Colors (Harmonized Dark Theme) -->
+    <color name="tile_blue_bg">#16181E</color>
+    <color name="tile_blue_stroke">#2A2D36</color>
+    <color name="tile_blue_text">#FF5D28</color>
+
+    <color name="tile_teal_bg">#16181E</color>
+    <color name="tile_teal_stroke">#2A2D36</color>
+    <color name="tile_teal_text">#FF5D28</color>
+
+    <color name="tile_amber_bg">#2D1C12</color>
+    <color name="tile_amber_stroke">#4D2C1A</color>
+    <color name="tile_amber_text">#FF8C00</color>
+
+    <color name="tile_indigo_bg">#16181E</color>
+    <color name="tile_indigo_stroke">#2A2D36</color>
+    <color name="tile_indigo_text">#FFFFFF</color>
+
+    <!-- Action Button Accents -->
+    <color name="btn_emerald">#10B981</color>
+    <color name="btn_coral">#EF4444</color>
+    <color name="btn_teal">#FF5D28</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E93A0</color>
+    <color name="text_muted">#616675</color>
+    <color name="text_on_hero">#FFFFFF</color>
+    <color name="text_on_hero_muted">#8E93A0</color>
+
+    <!-- Semantic Stock Status (Kondisi Khusus) -->
+    <color name="status_safe_text">#34D399</color>
+    <color name="status_safe_bg">#0A2B20</color>
+    <color name="status_safe_stroke">#124F3B</color>
+
+    <color name="status_low_text">#FF8C00</color>
+    <color name="status_low_bg">#331E12</color>
+    <color name="status_low_stroke">#5A321B</color>
+
+    <color name="status_empty_text">#F87171</color>
+    <color name="status_empty_bg">#331417</color>
+    <color name="status_empty_stroke">#581C21</color>
+
+    <color name="badge_info_text">#FF5D28</color>
+    <color name="badge_info_bg">#2A1A17</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
