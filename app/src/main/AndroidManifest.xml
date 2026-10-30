@@ -34,11 +34,6 @@
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".Dahboard"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
             android:name=".SparepartFormActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
